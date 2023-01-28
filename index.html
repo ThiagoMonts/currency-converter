@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>Conversor de Moedas</header>
+        <form action="#">
+            <div class="amount">
+                <p>Digite o valor desejado</p>
+                <input type="text" value="1">
+            </div>
+            <div class="drop-list">
+                <div class="from">
+                    <p>De</p>
+                    <div class="select-box">
+                        <img src="https://countryflagsapi.com/png/brazil" alt="Brazil flag"/>
+                        <select>
+                            <option value="BRL">BRL</option>
+                            <option value="EUR">EUR</option>
+                            <option value="USD">USD</option>
+                            <option value="YEN">YEN</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="icon"><i class="fas fa-exchange-alt"></i></div>
+                <div class="to">
+                    <p>Para</p>
+                    <div class="select-box">
+                        <img src="https://countryflagsapi.com/png/us" alt="The United States Of America flag"/>
+                        <select>
+                            <option value="BRL">BRL</option>
+                            <option value="EUR">EUR</option>
+                            <option value="USD">USD</option>
+                            <option value="YEN">YEN</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="exchange-rate">1 USD = 118.16 NPR</div>
+            <button>Converter</button>
+        </form>
+    </div>
+</body>
+</html>
